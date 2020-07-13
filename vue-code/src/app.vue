@@ -33,7 +33,8 @@
     export default {
         data(){
             return {
-                pickNum:prodTools.getTotalCount()
+                //pickNum:prodTools.getTotalCount()
+                pickNum:prodTools.getTotalCount1234()
             }
         },
         created(){
