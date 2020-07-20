@@ -1,4 +1,4 @@
-<template>
+﻿<template>
     <div>
         <!--顶部-->
         <mt-header title="钟宇雄的webApp"></mt-header>
@@ -33,6 +33,7 @@
     export default {
         data(){
             return {
+	//pickNum:prodTools.getTotalCount()
                 pickNum:prodTools.getTotalCount()
             }
         },
